@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# .env files
+.env
+./server/.env
+# Local application configuration
+.env.local
+
+# Private business, legal, grant, and diligence material
+/docs/
+
+# Generated/runtime backend data
+/server/build/
+/server/cache/
+/server/items/
+/server/metadata/
+
+# Keep only the public TON challenge archive used by README.md
+/src/docs/*
+!/src/docs/ton_challenge_detail.txt
+!/src/docs/ton_x_ignyte_global_challenge.jpg
+!/src/docs/dhahaby_pitch_ton_x_ignyte_global_challenge.jpeg
+!/src/docs/dhahaby_winner_of_ton_x_ignyte_global_challenge.jpg
+/dhahaby-hub/

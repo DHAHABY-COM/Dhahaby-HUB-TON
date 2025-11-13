@@ -1,0 +1,542 @@
+#pragma version =0.4.6;
+#pragma allow-post-modification;
+#pragma compute-asm-ltr;
+
+;; DhahabyValuation_DhahabyValuation.headers.fc
+;;
+;; Header files for DhahabyValuation
+;; NOTE: declarations are sorted for optimal order
+;;
+
+;; __tact_context_get
+(int, slice, int, slice) __tact_context_get() inline;
+
+;; __tact_context_get_sender
+slice __tact_context_get_sender() inline;
+
+;; __tact_dict_get_uint_cell
+cell __tact_dict_get_uint_cell(cell d, int kl, int k) inline;
+
+;; __tact_dict_set_uint_cell
+(cell, ()) __tact_dict_set_uint_cell(cell d, int kl, int k, cell v) inline;
+
+;; __tact_dict_exists_uint
+int __tact_dict_exists_uint(cell d, int kl, int k) inline;
+
+;; $DeployOk$_store
+builder $DeployOk$_store(builder build_0, (int) v) inline;
+
+;; $DeployOk$_store_cell
+cell $DeployOk$_store_cell((int) v, builder b) inline;
+
+;; $Valuation$_store
+builder $Valuation$_store(builder build_0, (cell, cell, cell, int, int) v) inline;
+
+;; $Valuation$_store_cell
+cell $Valuation$_store_cell((cell, cell, cell, int, int) v, builder b) inline;
+
+;; $Valuation$_load
+(slice, ((cell, cell, cell, int, int))) $Valuation$_load(slice sc_0) inline;
+
+;; $Valuation$_as_optional
+tuple $Valuation$_as_optional((cell, cell, cell, int, int) v) inline;
+
+;; $Valuation$_load_opt
+tuple $Valuation$_load_opt(cell cl) inline;
+
+;; $DhahabyValuation$_store
+builder $DhahabyValuation$_store(builder build_0, (slice, int, cell) v) inline;
+
+;; $DhahabyValuation$_load
+(slice, ((slice, int, cell))) $DhahabyValuation$_load(slice sc_0) inline;
+
+;; $Context$_get_value
+_ $Context$_get_value((int, slice, int, slice) v) inline;
+
+;; $Valuation$_not_null
+((cell, cell, cell, int, int)) $Valuation$_not_null(tuple v) inline;
+
+;; $Valuation$_to_tuple
+tuple $Valuation$_to_tuple(((cell, cell, cell, int, int)) v) inline;
+
+;; $Valuation$_to_opt_tuple
+tuple $Valuation$_to_opt_tuple(tuple v) inline;
+
+;; $Valuation$_to_opt_external
+tuple $Valuation$_to_opt_external(tuple v) inline;
+
+;; $DhahabyValuation$_contract_init
+(slice, int, cell) $DhahabyValuation$_contract_init() impure inline;
+
+;; $DhahabyValuation$_contract_load
+(slice, int, cell) $DhahabyValuation$_contract_load() impure inline;
+
+;; $DhahabyValuation$_contract_store
+() $DhahabyValuation$_contract_store((slice, int, cell) v) impure inline;
+
+;; $DhahabyValuation$_fun_getValuation
+((slice, int, cell), tuple) $DhahabyValuation$_fun_getValuation((slice, int, cell) $self, int $id) impure inline_ref;
+
+;; $DhahabyValuation$_fun_getNextId
+((slice, int, cell), int) $DhahabyValuation$_fun_getNextId((slice, int, cell) $self) impure inline_ref;
+
+;; $DhahabyValuation$_fun_getOwner
+((slice, int, cell), slice) $DhahabyValuation$_fun_getOwner((slice, int, cell) $self) impure inline_ref;
+
+;; $MessageParameters$_constructor_bounce_to_value_mode_body
+((int, cell, int, slice, int)) $MessageParameters$_constructor_bounce_to_value_mode_body(int $bounce, slice $to, int $value, int $mode, cell $body) inline;
+
+;; $DhahabyValuation$_fun_notify
+((slice, int, cell), ()) $DhahabyValuation$_fun_notify((slice, int, cell) $self, cell $body) impure inline;
+
+;; $Valuation$_constructor_user_store_valuationHash_status_timestamp
+((cell, cell, cell, int, int)) $Valuation$_constructor_user_store_valuationHash_status_timestamp(cell $user, cell $store, cell $valuationHash, int $status, int $timestamp) inline;
+
+;; $DeployOk$_constructor_queryId
+((int)) $DeployOk$_constructor_queryId(int $queryId) inline;
+
+
+;; DhahabyValuation_DhahabyValuation.stdlib.fc
+global (int, slice, int, slice) __tact_context;
+global slice __tact_context_sender;
+global cell __tact_child_contract_codes;
+global int __tact_randomized;
+
+(int, slice, int, slice) __tact_context_get() inline {
+    return __tact_context;
+}
+
+slice __tact_context_get_sender() inline {
+    return __tact_context_sender;
+}
+
+forall X0, X1, X2, X3, X4 -> tuple __tact_tuple_create_5((X0, X1, X2, X3, X4) v) asm """
+    5 TUPLE
+""";
+
+forall X0, X1, X2, X3, X4 -> (X0, X1, X2, X3, X4) __tact_tuple_destroy_5(tuple v) asm """
+    5 UNTUPLE
+""";
+
+cell __tact_dict_get_uint_cell(cell d, int kl, int k) inline {
+    var (r, ok) = udict_get_ref?(d, kl, k);
+    if (ok) {
+        return r;
+    } else {
+        return null();
+    }
+}
+
+(cell, ()) __tact_dict_set_uint_cell(cell d, int kl, int k, cell v) inline {
+    if (null?(v)) {
+        var (r, ok) = udict_delete?(d, kl, k);
+        return (r, ());
+    } else {
+        return (udict_set_ref(d, kl, k, v), ());
+    }
+}
+
+int __tact_dict_exists_uint(cell d, int kl, int k) inline {
+    var (r, ok) = udict_get?(d, kl, k);
+    return ok;
+}
+
+int $global_myBalance() impure asm """
+    BALANCE FIRST
+""";
+
+() $global_nativeReserve(int $amount, int $mode) impure asm """
+    RAWRESERVE
+""";
+
+() $global_message((int, cell, int, slice, int) $params) impure asm """
+    NEWC
+    b{01} STSLICECONST  // store tag = $0 and ihr_disabled = true
+    1 STI               // store `bounce`
+    b{000} STSLICECONST // store bounced = false and src = addr_none
+    STSLICE             // store `to`
+    SWAP
+    STGRAMS             // store `value`
+    106 PUSHINT         // 1 + 4 + 4 + 64 + 32 + 1
+    STZEROES
+    // → Stack state
+    // s0: Builder
+    // s1: `body`
+    // s2: `mode`
+    STDICT
+    ENDC
+    SWAP
+    SENDRAWMSG
+""";
+
+int $global_now() impure asm """
+    NOW
+""";
+
+((slice, int, cell), ()) $DhahabyValuation$_fun_notify((slice, int, cell) $self, cell $body) impure inline {
+    var (($self'owner, $self'nextId, $self'vals)) = $self;
+    slice $to = __tact_context_get_sender();
+    int $bounce = false;
+    if (false) {
+        int $balance = $global_myBalance();
+        int $balanceBeforeMessage = ($balance - $Context$_get_value(__tact_context_get()));
+        if (($balanceBeforeMessage < 0)) {
+            $global_nativeReserve(0, 0);
+            $global_message($MessageParameters$_constructor_bounce_to_value_mode_body($bounce, $to, 0, 130, $body));
+            return (($self'owner, $self'nextId, $self'vals), ());
+        }
+    }
+    $global_message($MessageParameters$_constructor_bounce_to_value_mode_body($bounce, $to, 0, 66, $body));
+    return (($self'owner, $self'nextId, $self'vals), ());
+}
+
+;; DhahabyValuation_DhahabyValuation.storage.fc
+;;
+;; Type: Context
+;; TLB: _ bounceable:bool sender:address value:int257 raw:^slice = Context
+;;
+
+_ $Context$_get_value((int, slice, int, slice) v) inline {
+    var (v'bounceable, v'sender, v'value, v'raw) = v;
+    return v'value;
+}
+
+;;
+;; Type: MessageParameters
+;; TLB: _ mode:int257 body:Maybe ^cell value:int257 to:address bounce:bool = MessageParameters
+;;
+
+((int, cell, int, slice, int)) $MessageParameters$_constructor_bounce_to_value_mode_body(int $bounce, slice $to, int $value, int $mode, cell $body) inline {
+    return ($mode, $body, $value, $to, $bounce);
+}
+
+;;
+;; Type: DeployOk
+;; Header: 0xaff90f57
+;; TLB: deploy_ok#aff90f57 queryId:uint64 = DeployOk
+;;
+
+builder $DeployOk$_store(builder build_0, (int) v) inline {
+    var (v'queryId) = v;
+    build_0 = store_uint(build_0, 2952335191, 32);
+    build_0 = build_0.store_uint(v'queryId, 64);
+    return build_0;
+}
+
+cell $DeployOk$_store_cell((int) v, builder b) inline {
+    return $DeployOk$_store(b, v).end_cell();
+}
+
+((int)) $DeployOk$_constructor_queryId(int $queryId) inline {
+    return ($queryId);
+}
+
+;;
+;; Type: Valuation
+;; TLB: _ user:^cell store:^cell valuationHash:^cell status:uint8 timestamp:uint32 = Valuation
+;;
+
+builder $Valuation$_store(builder build_0, (cell, cell, cell, int, int) v) inline {
+    var (v'user, v'store, v'valuationHash, v'status, v'timestamp) = v;
+    build_0 = build_0.store_ref(v'user);
+    build_0 = build_0.store_ref(v'store);
+    build_0 = build_0.store_ref(v'valuationHash);
+    build_0 = build_0.store_uint(v'status, 8);
+    build_0 = build_0.store_uint(v'timestamp, 32);
+    return build_0;
+}
+
+cell $Valuation$_store_cell((cell, cell, cell, int, int) v, builder b) inline {
+    return $Valuation$_store(b, v).end_cell();
+}
+
+(slice, ((cell, cell, cell, int, int))) $Valuation$_load(slice sc_0) inline {
+    var v'user = sc_0~load_ref();
+    var v'store = sc_0~load_ref();
+    var v'valuationHash = sc_0~load_ref();
+    var v'status = sc_0~load_uint(8);
+    var v'timestamp = sc_0~load_uint(32);
+    return (sc_0, (v'user, v'store, v'valuationHash, v'status, v'timestamp));
+}
+
+tuple $Valuation$_as_optional((cell, cell, cell, int, int) v) inline {
+    var (v'user, v'store, v'valuationHash, v'status, v'timestamp) = v;
+    return __tact_tuple_create_5(v'user, v'store, v'valuationHash, v'status, v'timestamp);
+}
+
+tuple $Valuation$_load_opt(cell cl) inline {
+    if (null?(cl)) {
+        return null();
+    }
+    var sc = cl.begin_parse();
+    return $Valuation$_as_optional(sc~$Valuation$_load());
+}
+
+((cell, cell, cell, int, int)) $Valuation$_not_null(tuple v) inline {
+    throw_if(128, null?(v));
+    var (cell vvv'user, cell vvv'store, cell vvv'valuationHash, int vvv'status, int vvv'timestamp) = __tact_tuple_destroy_5(v);
+    return (vvv'user, vvv'store, vvv'valuationHash, vvv'status, vvv'timestamp);
+}
+
+tuple $Valuation$_to_tuple(((cell, cell, cell, int, int)) v) inline {
+    var (v'user, v'store, v'valuationHash, v'status, v'timestamp) = v;
+    return __tact_tuple_create_5(v'user, v'store, v'valuationHash, v'status, v'timestamp);
+}
+
+tuple $Valuation$_to_opt_tuple(tuple v) inline {
+    if (null?(v)) { return null(); } 
+    return $Valuation$_to_tuple($Valuation$_not_null(v)); 
+}
+
+tuple $Valuation$_to_opt_external(tuple v) inline {
+    var loaded = $Valuation$_to_opt_tuple(v);
+    if (null?(loaded)) {
+        return null();
+    } else {
+        return (loaded);
+    }
+}
+
+((cell, cell, cell, int, int)) $Valuation$_constructor_user_store_valuationHash_status_timestamp(cell $user, cell $store, cell $valuationHash, int $status, int $timestamp) inline {
+    return ($user, $store, $valuationHash, $status, $timestamp);
+}
+
+;;
+;; Type: DhahabyValuation
+;; TLB: _ owner:address nextId:uint32 vals:dict<uint32, ^Valuation{user:^cell,store:^cell,valuationHash:^cell,status:uint8,timestamp:uint32}> = DhahabyValuation
+;;
+
+builder $DhahabyValuation$_store(builder build_0, (slice, int, cell) v) inline {
+    var (v'owner, v'nextId, v'vals) = v;
+    build_0 = build_0.store_slice(v'owner);
+    build_0 = build_0.store_uint(v'nextId, 32);
+    build_0 = build_0.store_dict(v'vals);
+    return build_0;
+}
+
+(slice, ((slice, int, cell))) $DhahabyValuation$_load(slice sc_0) inline {
+    var v'owner = sc_0~load_msg_addr();
+    var v'nextId = sc_0~load_uint(32);
+    var v'vals = sc_0~load_dict();
+    return (sc_0, (v'owner, v'nextId, v'vals));
+}
+
+(slice, int, cell) $DhahabyValuation$_contract_load() impure inline {
+    slice $sc = get_data().begin_parse();
+    int $loaded = $sc~load_int(1);
+    if ($loaded) {
+        return $sc~$DhahabyValuation$_load();
+    }
+    else {
+        return $DhahabyValuation$_contract_init();
+    }
+}
+
+() $DhahabyValuation$_contract_store((slice, int, cell) v) impure inline {
+    builder b = begin_cell();
+    b = b.store_int(true, 1);
+    b = $DhahabyValuation$_store(b, v);
+    set_data(b.end_cell());
+}
+
+;;
+;; Contract DhahabyValuation functions
+;;
+
+(slice, int, cell) $DhahabyValuation$_contract_init() impure inline {
+    var (($self'owner, $self'nextId, $self'vals)) = (null(), null(), null());
+    $self'owner = __tact_context_get_sender();
+    $self'nextId = 0;
+    $self'vals = null();
+    return ($self'owner, $self'nextId, $self'vals);
+}
+
+((slice, int, cell), tuple) $DhahabyValuation$_fun_getValuation((slice, int, cell) $self, int $id) impure inline_ref {
+    var (($self'owner, $self'nextId, $self'vals)) = $self;
+    var $fresh$ret_0 = $Valuation$_load_opt(__tact_dict_get_uint_cell($self'vals, 32, $id));
+    return (($self'owner, $self'nextId, $self'vals), $fresh$ret_0);
+}
+
+((slice, int, cell), int) $DhahabyValuation$_fun_getNextId((slice, int, cell) $self) impure inline_ref {
+    var (($self'owner, $self'nextId, $self'vals)) = $self;
+    var $fresh$ret_1 = $self'nextId;
+    return (($self'owner, $self'nextId, $self'vals), $fresh$ret_1);
+}
+
+((slice, int, cell), slice) $DhahabyValuation$_fun_getOwner((slice, int, cell) $self) impure inline_ref {
+    var (($self'owner, $self'nextId, $self'vals)) = $self;
+    var $fresh$ret_2 = $self'owner;
+    return (($self'owner, $self'nextId, $self'vals), $fresh$ret_2);
+}
+
+;;
+;; Get methods of a Contract DhahabyValuation
+;;
+
+_ %getValuation(int $id) method_id(97561) {
+    int $id = $id;
+    var self = $DhahabyValuation$_contract_load();
+    var res = self~$DhahabyValuation$_fun_getValuation($id);
+    return $Valuation$_to_opt_external(res);
+}
+
+_ %getNextId() method_id(82207) {
+    var self = $DhahabyValuation$_contract_load();
+    var res = self~$DhahabyValuation$_fun_getNextId();
+    return res;
+}
+
+_ %getOwner() method_id(102025) {
+    var self = $DhahabyValuation$_contract_load();
+    var res = self~$DhahabyValuation$_fun_getOwner();
+    return res;
+}
+
+;;
+;; Routing of a Contract DhahabyValuation
+;;
+
+;; message opcode reader utility: only binary receivers
+;; Returns 32 bit message opcode, otherwise throws the "Invalid incoming message" exit code
+(slice, int) ~load_opcode_internal(slice s) asm( -> 1 0) "32 LDUQ 130 THROWIFNOT";
+
+() recv_internal(int msg_value, cell in_msg_cell, slice in_msg) impure {
+    
+    ;; Context
+    var cs = in_msg_cell.begin_parse();
+    cs~skip_bits(2);
+    var msg_bounceable = cs~load_int(1);
+    var msg_bounced = cs~load_int(1);
+    slice msg_sender_addr = cs~load_msg_addr();
+    __tact_context = (msg_bounceable, msg_sender_addr, msg_value, cs);
+    __tact_context_sender = msg_sender_addr;
+    
+    ;; Load contract data
+    var ($self'owner, $self'nextId, $self'vals) = $DhahabyValuation$_contract_load();
+    
+    ;; Handle bounced messages
+    if (msg_bounced) { return (); }
+    var op = in_msg~load_opcode_internal();
+    ;; Receive CreateValuation message
+    if (op == 783258973) {
+        var $msg'query_id = in_msg~load_uint(64);
+        var $msg'user = in_msg~load_ref();
+        var $msg'store = in_msg~load_ref();
+        var $msg'valuationHash = in_msg~load_ref();
+        throw_unless(33411, ( equal_slices_bits(__tact_context_get_sender(), $self'owner) ));
+        int $newId = $self'nextId;
+        $self'nextId = ($newId + 1);
+        $self'vals~__tact_dict_set_uint_cell(32, $newId, $Valuation$_store_cell($Valuation$_constructor_user_store_valuationHash_status_timestamp($msg'user, $msg'store, $msg'valuationHash, 0, $global_now()), begin_cell()));
+        $DhahabyValuation$_contract_store(($self'owner, $self'nextId, $self'vals));
+        return ();
+    }
+    
+    ;; Receive SetValuationStatus message
+    if (op == 1435206154) {
+        var $msg'query_id = in_msg~load_uint(64);
+        var $msg'id = in_msg~load_uint(32);
+        var $msg'status = in_msg~load_uint(8);
+        throw_unless(20164, ( equal_slices_bits(__tact_context_get_sender(), $self'owner) ));
+        throw_unless(42829, __tact_dict_exists_uint($self'vals, 32, $msg'id));
+        throw_unless(5070, ( (($msg'status == 1)) ? (true) : (($msg'status == 2)) ));
+        var ($val'user, $val'store, $val'valuationHash, $val'status, $val'timestamp) = $Valuation$_not_null($Valuation$_load_opt(__tact_dict_get_uint_cell($self'vals, 32, $msg'id)));
+        $val'status = $msg'status;
+        $self'vals~__tact_dict_set_uint_cell(32, $msg'id, $Valuation$_store_cell(($val'user, $val'store, $val'valuationHash, $val'status, $val'timestamp), begin_cell()));
+        $DhahabyValuation$_contract_store(($self'owner, $self'nextId, $self'vals));
+        return ();
+    }
+    
+    ;; Receive Deploy message
+    if (op == 0x946a98b6) {
+        var $deploy'queryId = in_msg~load_uint(64);
+        ($self'owner, $self'nextId, $self'vals)~$DhahabyValuation$_fun_notify($DeployOk$_store_cell($DeployOk$_constructor_queryId($deploy'queryId), begin_cell()));
+        $DhahabyValuation$_contract_store(($self'owner, $self'nextId, $self'vals));
+        return ();
+    }
+    
+    ;; Throw if not handled
+    throw(130);
+}
+
+
+() __tact_selector_hack_asm() impure asm """
+@atend @ 1 {
+        execute current@ context@ current!
+        {
+            // The core idea of this function is to save gas by avoiding unnecessary dict jump, when recv_internal/recv_external is called
+            // We want to extract recv_internal/recv_external from the dict and select needed function
+            // not by jumping to the needed function by it's index, but by using usual IF statements.
+
+            }END> b> // Close previous builder, now we have a cell of previous code on top of the stack
+
+            <{ // Start of the new code builder
+                SETCP0
+                // Swap the new code builder with the previous code, now we have previous code on top of the stack
+                swap
+                // Transform cell to slice and load first ref from the previous code, now we have the dict on top of the stack
+                <s ref@
+
+                // Extract the recv_internal from the dict
+                dup 0 swap @procdictkeylen idict@ { "internal shortcut error" abort } ifnot
+                swap
+
+                // Delete the recv_internal from the dict
+                0 swap @procdictkeylen idict- drop
+                // Delete the recv_external from the dict (it's okay if it's not there)
+                -1 swap @procdictkeylen idict- drop
+                // Delete the __tact_selector_hack from the dict
+                65535 swap @procdictkeylen idict- drop
+
+                // Bring the code builder from the bottom of the stack
+                // because if recv_external extraction is optional, and the number of elements on the stack is not fixed
+                depth 1- roll
+                // Swap with the dict from which we extracted recv_internal and (maybe) recv_external
+                swap
+
+                // Check if the dict is empty
+                dup null?
+                // Store a copy of this flag in the bottom of the stack
+                dup depth 1- -roll
+                {
+                    // If the dict is empty, just drop it (it will be null if it's empty)
+                    drop
+                }
+                {
+                    // If the dict is not empty, prepare continuation to be stored in c3
+                    <{
+                        // Save this dict as first ref in this continuation, it will be pushed in runtime by DICTPUSHCONST
+                        swap @procdictkeylen DICTPUSHCONST
+                        // Jump to the needed function by it's index
+                        DICTIGETJMPZ
+                        // If such key is not found, throw 11 along with the key as an argument
+                        11 THROWARG
+                    }> PUSHCONT
+                    // Store the continuation in c3
+                    c3 POP
+                } cond
+
+                // Function id is on top of the (runtime) stack
+                DUP IFNOTJMP:<{
+                    // place recv_internal here
+                    DROP swap @addop
+                }>
+
+                // Bring back the flag, indicating if the dict is empty or not from the bottom of the stack
+                depth 1- roll
+                {
+                    // If the dict is empty, throw 11
+                    11 THROWARG
+                }
+                {
+                    // If the dict is not empty, jump to continuation from c3
+                    c3 PUSH JMPX
+                } cond
+            }> b>
+        } : }END>c
+        current@ context! current!
+    } does @atend !
+""";
+
+() __tact_selector_hack() method_id(65535) {
+    return __tact_selector_hack_asm();
+}
