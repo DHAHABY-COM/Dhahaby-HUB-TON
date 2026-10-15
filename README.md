@@ -1,39 +1,37 @@
 <div align="center">
   <p>
-    <img src="./public/logo.png" alt="Dhahaby logo" width="76" height="76" />
+    <a href="https://dhahaby.com"><img src="./public/logo-mark.svg" alt="Dhahaby logo" width="128" height="128" /></a>
   </p>
-  <h1>Dhahaby on TON</h1>
-  <p><strong>Turning real-world gold into verifiable digital value, inside Telegram.</strong></p>
+  <h1>
+    <a href="https://dhahaby.com">
+      <img src="./public/dhahaby_wordmark.svg" alt="DHAHABY" width="420" height="72" />
+    </a>
+  </h1>
+  <p><strong>Making dormant household gold work like money.</strong></p>
+  <p><em>Modern finance for timeless assets.</em> Tokenise once. Borrow, spend or sell.</p>
   <p>
-    <a href="https://dhahaby.com">Dhahaby Official Website</a> |
-    <a href="https://avax.dhahaby.com/">Dhahaby HUB</a> |
-    <a href="https://blog.dhahaby.com/">Dhahaby Blog</a>
-  </p>  
-<p>
-    <img src="https://img.shields.io/badge/Winner-USD%2015%2C000-D4AF37?style=for-the-badge" alt="Winner, USD 15,000" />
-    <img src="https://img.shields.io/badge/TON-Testnet-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Testnet" />
-    <img src="https://img.shields.io/badge/Experience-Telegram%20Mini%20App-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Mini App" />
-    <img src="https://img.shields.io/badge/Theme-RWA%20%C3%97%20AI%20%C3%97%20Finance-111111?style=for-the-badge" alt="RWA, AI, and finance" />
-  </p>
-  <p>
-    Winner of the <strong>TON Foundation × Ignyte “Build the Web3 SuperApp” challenge</strong><br />
-    from the global <em>Chain the Future</em> program.
+    <img src="https://img.shields.io/badge/%F0%9F%87%A6%F0%9F%87%AA%20UAE-Future%20100%20Company-9A5B0C?style=for-the-badge" alt="UAE Future 100 Company" />
+    <img src="https://img.shields.io/badge/Avalanche%20Build%20Games-Finalist%20%C2%B7%20%2410K%20Grant-E84142?style=for-the-badge" alt="Avalanche Build Games finalist, $10K grant" />
+    <img src="https://img.shields.io/badge/TON%20SuperApp%20Challenge-Winner%20%C2%B7%20%2415K-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON SuperApp Challenge winner, $15K" />
+    <img src="https://img.shields.io/badge/Status-Raising%20Next%20Round-111111?style=for-the-badge" alt="Raising next round" />
   </p>
   <p>
-    <a href="#the-story">The Story</a> ·
-    <a href="#the-product">The Product</a> ·
-    <a href="#why-ton--telegram">Why TON</a> ·
-    <a href="#technical-architecture">Architecture</a> ·
-    <a href="#run-it-locally">Run Locally</a>
+    <a href="https://dhahaby.com">Website</a> ·
+    <a href="https://hub.dhahaby.com/?page=ai_valuation">Value my gold</a> ·
+    <a href="https://www.youtube.com/watch?v=oa8Z7aCov-k&t=78s">Watch the video</a> ·
+    <a href="https://mena.entrepreneur.com/entrepreneurs/future-100-2025-winner-dhahaby">Future 100 feature</a> ·
+    <a href="https://blog.dhahaby.com/">Blog</a>
   </p>
 </div>
 
 <div align="center">
   <img
-    src="./src/docs/dhahaby_winner_of_ton_x_ignyte_global_challenge.jpg"
-    alt="Dhahaby receiving the USD 15,000 winner award at the TON Foundation and Ignyte Build the Web3 SuperApp challenge"
-    width="100%"
+    src="./src/docs/dhahaby_uae_future_100_award.jpeg"
+    alt="Dr. Rikin Patel, Dhahaby Founder and CEO, receiving the UAE Future 100 award from H.E. Abdulla Bin Touq, UAE Minister of Economy and Tourism, at Investopia"
+    width="85%"
   />
+  <br />
+  <sub>Dr. Rikin Patel, Founder &amp; CEO, receives Dhahaby's <strong>UAE Future 100</strong> award from H.E. Abdulla Bin Touq, UAE Minister of Economy &amp; Tourism, at Investopia.</sub>
 </div>
 
 ---
@@ -42,173 +40,181 @@
 
 <table>
   <tr>
-    <td><strong>Achievement</strong><br />Challenge winner</td>
-    <td><strong>Prize</strong><br />USD 15,000</td>
-    <td><strong>Chain</strong><br />TON Testnet</td>
-    <td><strong>Distribution</strong><br />Telegram Mini App</td>
+    <td><strong>Market</strong><br />$500B+ of gold dormant in GCC homes alone</td>
+    <td><strong>Regulation</strong><br />Regulatory pathways with two central banks (UAE · Qatar)</td>
+    <td><strong>Ecosystem</strong><br />Two lenders signed · jeweller network live (UAE · Qatar)</td>
+    <td><strong>Demand</strong><br />$3.5M institutional enquiry · 65+ transaction-specific enquiries</td>
   </tr>
   <tr>
-    <td><strong>Track</strong><br />Tokenization</td>
-    <td><strong>Asset</strong><br />Physical gold and jewellery</td>
-    <td><strong>Core UX</strong><br />AI valuation + TON Connect</td>
-    <td><strong>Prototype</strong><br />Full-stack, testnet-backed</td>
+    <td><strong>Recognition</strong><br />🇦🇪 UAE Future 100 Company</td>
+    <td><strong>Prizes &amp; grants</strong><br />TON SuperApp winner ($15K) · Uzbek IT Park Finclusion winner ($10K) · Avalanche Build Games finalist ($10K grant)</td>
+    <td><strong>Backed by</strong><br />Antler · Qatar Development Bank</td>
+    <td><strong>Organic pull</strong><br />4,800+ visitors · 415+ waitlist · zero paid marketing</td>
   </tr>
 </table>
 
-> Gold has stored value for thousands of years. Dhahaby asked a more modern question: what if the gold already sitting in a family’s home could become understandable, verifiable, and financially useful without forcing that family to sell it?
+> **We are raising our next round.** If you invest in fintech, real-world assets or GCC infrastructure, we'd like to talk: [ceo@dhahaby.com](mailto:ceo@dhahaby.com) · [LinkedIn](https://www.linkedin.com/company/dhahabyofficial/)
 
 ---
 
-## The story
-
-Across the GCC and other gold-rich markets, people often hold meaningful wealth in jewellery. The value is real, but it is difficult to use. A lender cannot act on a photograph. A customer may not know the weight, purity, or fair value of an item. Physical appraisal takes time, and each new financial conversation starts from zero.
-
-Dhahaby was built to close that gap.
-
-The prototype begins where users already are: **inside Telegram**. A customer photographs a gold item, receives an AI-assisted pre-valuation, connects a TON wallet, and creates a durable digital record that can be followed by physical verification and financing through licensed partners.
-
-The idea was not to put gold “on-chain” as a slogan. It was to make the journey from an object in someone’s hand to a trusted financial record feel natural enough for everyday use.
-
-That story won the TON Foundation × Ignyte challenge and its **USD 15,000 first prize**.
+## Watch: Dhahaby in two minutes
 
 <div align="center">
-  <img
-    src="./src/docs/dhahaby_pitch_ton_x_ignyte_global_challenge.jpeg"
-    alt="Dhahaby on TON presented on stage at the Ignyte challenge"
-    width="100%"
-  />
+  <a href="https://www.youtube.com/watch?v=oa8Z7aCov-k&t=78s">
+    <img
+      src="https://img.youtube.com/vi/oa8Z7aCov-k/maxresdefault.jpg"
+      alt="Dhahaby: Make Your Gold Work Like Money. Borrow, spend, sell or store your gold. Watch on YouTube"
+      width="85%"
+    />
+  </a>
   <br />
-  <sub>Dhahaby on stage: “Turning Real World Gold into Everyday Digital Liquidity.”</sub>
+  <sub>▶ <a href="https://www.youtube.com/watch?v=oa8Z7aCov-k&t=78s">Dhahaby: Make Your Gold Work Like Money | Borrow, Spend, Sell or Store Your Gold</a></sub>
 </div>
 
 ---
 
 ## The problem
 
-Gold can be liquid in theory and inaccessible in practice.
+**More than $500B of gold sits dormant in GCC homes alone.** It is real wealth, but it doesn't work. Banks don't lend against it because three things are missing:
 
-- **Owners lack a trusted first estimate.** Purity, weight, market price, and condition all affect value.
-- **Lenders lack a reusable digital trail.** A claim about an item is not the same as a verifiable record.
-- **Appraisal is fragmented.** Discovery, valuation, jeweller verification, and finance often happen in separate systems.
-- **Crypto onboarding adds friction.** Asking mainstream users to install unfamiliar tools breaks the journey before it begins.
-
-Dhahaby connects those fragmented steps into one path: discover the value, record the evidence, verify the asset, and unlock a regulated financial next step.
-
----
-
-## The product
-
-### From jewellery to a reusable financial record
-
-1. **Open Dhahaby in Telegram**<br />
-   The Mini App reads the Telegram user context and adapts to the user’s Telegram theme.
-
-2. **Photograph the gold item**<br />
-   The customer uploads an image and supplies the item details needed for a pre-valuation.
-
-3. **Receive an AI-assisted estimate**<br />
-   The backend classifies the item and returns estimated purity, weight, confidence, reasoning, variance, and value using a current XAU price reference.
-
-4. **Connect a TON wallet**<br />
-   TON Connect provides the wallet session without pulling the customer out of the experience.
-
-5. **Create the digital valuation record**<br />
-   The backend stores the pre-valuation and submits its valuation data to the TON testnet contract flow.
-
-6. **Verify and continue**<br />
-   The customer can see the asset history, open the TON explorer record, and move toward jeweller verification and gold-backed financing.
-
-```text
-Physical gold
-    ↓ photograph
-AI-assisted pre-valuation
-    ↓ connect identity
-TON wallet + Telegram user
-    ↓ create proof
-TON testnet valuation record
-    ↓ physical confirmation
-Verified asset
-    ↓ licensed partner
-Loan, credit, or another financial use
-```
-
-### What the prototype demonstrates
-
-<table>
-  <tr>
-    <td><strong>Telegram-native onboarding</strong><br />Mini App identity, theme awareness, expansion, popup, and haptic APIs.</td>
-    <td><strong>TON wallet connection</strong><br />TON Connect button, address state, wallet status events, and balance display.</td>
-  </tr>
-  <tr>
-    <td><strong>AI pre-valuation</strong><br />Image classification, estimated purity and weight, confidence, variance, and valuation reasoning.</td>
-    <td><strong>Live gold reference pricing</strong><br />Backend XAU pricing endpoint used to translate the assessment into a currency value.</td>
-  </tr>
-  <tr>
-    <td><strong>TON testnet proof</strong><br />Valuation messages encoded into TON cells, sent to the registry flow, and confirmed by wallet sequence number.</td>
-    <td><strong>Asset history</strong><br />Wallet-scoped pre-valuations with lifecycle status and TON explorer links.</td>
-  </tr>
-  <tr>
-    <td><strong>Physical appraisal path</strong><br />A bridge from AI estimate to jeweller review and verified collateral.</td>
-    <td><strong>Finance path</strong><br />A product foundation for gold-backed loans and credit through licensed partners.</td>
-  </tr>
-</table>
-
----
-
-## Why TON + Telegram
-
-The challenge asked builders to make Web3 payments and tokenization feel native to everyday life. TON and Telegram gave Dhahaby the right primitives for that goal.
-
-### Distribution without a new destination
-
-Telegram is not a landing page users must discover. It is already a daily communication layer. A Mini App can turn a message, referral, or partner conversation into a product session without an app-store detour.
-
-### Wallet UX that stays in the journey
-
-TON Connect makes wallet connection part of the interface instead of a separate technical ritual. In this prototype, the connected address becomes the link between the customer, pre-valuation history, and on-chain proof.
-
-### A chain built for consumer-scale interactions
-
-Dhahaby’s flow needs small, fast interactions rather than rare, high-value settlement alone. TON’s architecture and Telegram alignment make it a natural fit for repeated consumer actions, from recording valuations to future payments and tokenized financial products.
-
-### Real-world assets need both worlds
-
-The blockchain does not inspect gold. The AI estimate does not replace a certified appraiser. Dhahaby deliberately combines:
-
-- **Off-chain intelligence** for image analysis, pricing, user records, and operational workflows.
-- **Physical verification** for authenticity, purity, weight, and custody.
-- **On-chain evidence** for a durable, inspectable valuation trail.
-
-That hybrid model is the product: each layer does the job it is best equipped to do.
-
----
-
-## Challenge fit
-
-The TON Foundation × Ignyte program focused on business infrastructure, payments, and tokenization. Dhahaby entered through the real-world asset tokenization opportunity.
-
-| Judging dimension | Dhahaby response |
+| Missing rail | Why it blocks lending |
 |---|---|
-| **Innovation** | Turns privately held gold into a digital valuation record that can progress toward verified collateral. |
-| **TON & Telegram fit** | Uses Telegram Mini Apps for distribution and TON Connect plus TON testnet for the wallet and proof layer. |
-| **Feasibility & execution** | Demonstrates a working frontend, backend, wallet connection, classification flow, database persistence, and testnet submission path. |
-| **Market relevance** | Addresses the gap between household gold ownership and practical access to finance. |
-| **Sustainability & scale** | Creates a repeatable rail for appraisal partners, lenders, and future gold-backed products. |
-| **Storytelling** | Starts with an object people already trust and gives it a digital journey people can understand. |
+| **Trusted valuation** | A lender can't underwrite an item whose weight, purity and value nobody has verified. |
+| **Secure custody** | Collateral has to be held somewhere the lender can rely on. |
+| **Reliable liquidation** | If a loan defaults, the lender needs a dependable way to sell the gold at market. |
+
+No rails means no lending. Households are pushed to informal liquidity that costs **30–80% APR**, or they sell heirlooms outright.
+
+---
+
+## The solution: tokenise once, then borrow, spend or sell
+
+1. **AI valuation.** An instant estimate based on the live gold price.
+2. **Jeweller verification.** A certified jeweller confirms the item in person.
+3. **Auto-tokenisation.** We automatically mint the verified gold into on-chain collateral.
+
+Verified physical gold becomes **reusable, programmable collateral**. You verify it once and can put it to work again and again.
+
+| Borrow | Spend | Sell |
+|---|---|---|
+| **Gold-backed loan.** Instant credit while you keep ownership of your gold. | **Mastercard on Gold.** A credit limit that moves with your collateral. | **Liquidate at market.** A wholesale bid, settled through our jewellers. |
+
+**How we earn:** a 2% loan-execution fee, 70% of card interchange, and margins on valuation and custody.
+
+Dhahaby is the technology platform. Lending is provided by licensed partners.
+
+---
+
+## Traction and moat: we built the moat first, the code second
+
+| Regulation | Ecosystem | Demand |
+|---|---|---|
+| **Two central banks.** Regulatory pathways established in the UAE and Qatar. | **Two lenders signed.** Jeweller network live in the UAE and Qatar. | **$3.5M institutional enquiry.** 65+ transaction-specific enquiries. 4,800+ visitors and a 415+ waitlist, with zero paid marketing. |
+
+AI valuation, on-chain collateral and regulator buy-in are all in place. **Now we execute.**
+
+---
+
+## The journey so far
+
+Most recent first: recognised by the UAE government as one of the companies shaping the nation's future economy, taken multi-chain on Avalanche, and first proven on TON.
+
+### Latest: a 🇦🇪 UAE Future 100 company
+
+Dhahaby was recognised as a **UAE Future 100** company, which means the UAE Government sees it as an innovative company shaping the nation's future economy. We received the award from **H.E. Abdulla Bin Touq, UAE Minister of Economy & Tourism, at Investopia**.
+
+At the ceremony, H.E. said he had personally reviewed every company recognised, and that when he travels abroad he is proud to talk about the businesses being built here.
+
+For a company building gold-backed finance in one of the world's great gold markets, that recognition matters. It signals alignment with the UAE's economic agenda as we scale partnerships with financial institutions, payment networks and jewellers across the GCC.
+
+> *"There is still a huge amount to build. But moments like this fuel our fire, and remind us what is possible in a country that genuinely wants its entrepreneurs to succeed."*
+> — Dhahaby
+
+📰 Read the feature: [Future 100 2025 Winner: Dhahaby, Entrepreneur Middle East](https://mena.entrepreneur.com/entrepreneurs/future-100-2025-winner-dhahaby)
+
+### Before that: multi-chain on Avalanche, a Build Games finalist with a $10K grant
+
+Building on the TON prototype, we took the same valuation and collateral flow onto the **Avalanche C-Chain** and turned the prototype into an operational platform with three roles: customer, appraiser and admin. Dhahaby was a **finalist in the Avalanche Build Games** competition and received a **$10K grant**.
+
+What the Avalanche build added beyond the TON prototype:
+
+- **EVM rails.** Valuation proofs are written to Avalanche C-Chain (Fuji) through Ethers v6, and wallets connect with Reown AppKit.
+- **The full appraisal loop.** Customers book jeweller appraisals, appraisers review bookings, and admins decide which assets are converted into collateral.
+- **Auto-tokenisation.** Converted assets enter a queue, and a retry-safe worker mints them as AVAX NFTs, so each verified item gets an on-chain collateral record.
+- **Production-grade surfaces.** Appraiser and admin consoles are protected by Firebase authentication.
+
+The Avalanche codebase lives in a private repository, **[DHAHABY-COM/Dhahaby-HUB-AVAX](https://github.com/DHAHABY-COM/Dhahaby-HUB-AVAX)**. Investors and partners can request access at [ceo@dhahaby.com](mailto:ceo@dhahaby.com).
 
 <div align="center">
   <img
-    src="./src/docs/ton_x_ignyte_global_challenge.jpg"
-    alt="TON Foundation and Ignyte Build the Web3 SuperApp challenge artwork"
-    width="100%"
+    src="./src/docs/dhahaby_x_avalanche_build_games.jpg"
+    alt="Dhahaby × Avalanche: Turn your gold into financial power. Avalanche Build Games competition"
+    width="85%"
   />
+  <br />
+  <sub>Finalist, Avalanche Build Games, with a $10K grant.</sub>
 </div>
+
+### Where it started: winning the TON SuperApp Challenge
+
+Dhahaby's first rail was built in this repository: a **Telegram Mini App on TON** where a customer photographs a gold item, receives an AI pre-valuation, connects a TON wallet and creates a verifiable on-chain valuation record.
+
+It won the **TON Foundation × Ignyte "Build the Web3 SuperApp" challenge** from the global *Chain the Future* program, together with its **$15K first prize**.
+
+<div align="center">
+  <img
+    src="./src/docs/dhahaby_winner_of_ton_x_ignyte_global_challenge.jpg"
+    alt="Dhahaby receiving the USD 15,000 winner award at the TON Foundation and Ignyte Build the Web3 SuperApp challenge"
+    width="85%"
+  />
+  <br />
+  <sub>Winner, TON Foundation × Ignyte "Build the Web3 SuperApp" challenge: $15K.</sub>
+</div>
+
+### All recognition
+
+| Program | Result |
+|---|---|
+| 🇦🇪 UAE Future 100 | **Future 100 Company**, recognised by the UAE Government |
+| Avalanche Build Games | **Finalist** ($10K grant) |
+| TON Foundation × Ignyte "Build the Web3 SuperApp" | **Winner** ($15K prize) |
+| Uzbek IT Park Finclusion Challenge | **Winner** ($10K prize) |
+| ADIB Digital Assets Innovation | **Runner-up** |
 
 ---
 
-## Technical architecture
+## Why this team wins
 
-Dhahaby is a hybrid full-stack prototype. React renders the Telegram experience, TON Connect manages the customer wallet session, Express coordinates valuation and persistence, MySQL holds operational state, and a server-controlled TON wallet submits valuation records to testnet.
+<table>
+  <tr>
+    <td width="50%">
+      <strong><a href="https://www.linkedin.com/in/drrikinpatel/">Dr. Rikin Patel</a></strong><br />
+      <em>Founder &amp; CEO</em> · <a href="https://www.linkedin.com/in/drrikinpatel/">LinkedIn</a><br /><br />
+      Former Head of MENA Equities at JPMorgan and UBS, with 25+ years in finance, 14 of them in the GCC. His previous fintech exited to AJ Bell plc in 2021.
+    </td>
+    <td width="50%">
+      <strong><a href="https://www.linkedin.com/in/huankaichen/">Dr. Huankai Chen</a></strong><br />
+      <em>Co-Founder &amp; CTO</em> · <a href="https://www.linkedin.com/in/huankaichen/">LinkedIn</a><br /><br />
+      PhD in Computer Science and MSc in Actuarial Science. Serial founder with 400+ citations and deep expertise in valuation, credit and AI.
+    </td>
+  </tr>
+</table>
+
+**Institutional finance meets applied AI. Few teams have both.**
+
+---
+
+## Beyond gold: every dormant asset class
+
+Gold is the wedge into the world's largest dormant asset class: **the household balance sheet**. The same rails of valuation, verification, custody and on-chain collateral extend to **diamonds, watches, luxury goods, art and other real-world assets** as every asset class moves on-chain.
+
+The collateral layer is chain-agnostic. We shipped on TON for consumer distribution inside Telegram, and on Avalanche for EVM-compatible DeFi and institutional rails.
+
+---
+
+## About this repository: the TON prototype
+
+This repository is the **TON Foundation challenge-winning prototype**, kept as the first chapter of the Dhahaby story. It is a Telegram Mini App where the user photographs gold, receives an AI pre-valuation, connects a TON wallet and records the valuation on TON testnet.
 
 ```mermaid
 flowchart LR
@@ -221,231 +227,64 @@ flowchart LR
     API --> TW[Backend TON wallet]
     TW --> REG[Valuation registry on TON testnet]
     REG --> EXP[TON explorer proof]
-    DB --> APP[Asset history and appraisal workflow]
-    TC --> TWA
-    EXP --> TWA
 ```
 
-### Frontend
+| | TON prototype (this repo) | Avalanche build (private) |
+|---|---|---|
+| **Distribution** | Telegram Mini App | Web app (customer, appraiser, admin) |
+| **Wallet** | TON Connect | Reown AppKit |
+| **Chain** | TON testnet | Avalanche C-Chain (Fuji) |
+| **On-chain output** | Valuation record | Valuation record + collateral NFT issuance |
+| **Stack** | React 19, Vite 7, Express 5, MySQL, `@ton/ton` | React 19, Vite 7, Express, MySQL, Ethers v6, Firebase |
+| **Workflow coverage** | Valuation → on-chain proof → asset history | Valuation → appraisal booking → review → conversion → mint |
 
-- **React 19 + Vite 7** for the Mini App UI and development workflow.
-- **Telegram Web Apps SDK** for user context, theme integration, expansion, haptics, and native popups.
-- **TON Connect UI React** for wallet connection and connection-state events.
-- **TON SDKs** for address parsing, balance queries, cell construction, and transaction payloads.
-- **Tailwind CSS 4** plus project CSS for the mobile-first interface.
+<details>
+<summary><strong>Run the TON prototype locally</strong></summary>
 
-### Backend
+<br />
 
-- **Node.js + Express 5** for user, classification, valuation, price, asset, booking, and tracking endpoints.
-- **MySQL** for Telegram users, pre-valuations, status, and transaction references.
-- **OpenAI integration** for structured jewellery image classification.
-- **TON client + wallet contract** for testnet message submission and confirmation polling.
-- **Multer** for image upload handling.
+The repository contains two Node projects: the Vite frontend at the root and the Express backend in `server/`.
 
-### TON integration
-
-| Layer | Implementation |
-|---|---|
-| Wallet connection | `@tonconnect/ui-react` with a hosted TON Connect manifest |
-| Network | TON testnet via TON Center JSON-RPC |
-| Customer identity | Connected TON address, paired with Telegram user context |
-| Payload encoding | TON cells built with `@ton/core` / `@ton/ton` |
-| Contract interface | Generated `DhahabyValuation` bindings |
-| Submission | Backend TON Wallet V5R1 sends the valuation message |
-| Confirmation | Wallet `seqno` polling followed by latest-transaction lookup |
-| Proof display | Wallet-scoped asset history links to TON testnet explorer transactions |
-
-### Data flow
-
-```text
-Image + item details
-  -> POST /api/classify
-  -> structured assessment
-  -> GET /api/XAU/:currency
-  -> customer valuation
-  -> POST /api/loan/apply
-  -> MySQL pre-valuation row
-  -> sendCreateValuation(...)
-  -> TON testnet transaction
-  -> transaction hash stored with the pre-valuation
-  -> GET /api/prevaluations/:walletAddress
-  -> My Assets + explorer link
-```
-
----
-
-## Repository map
-
-```text
-dhahaby/
-├── public/
-│   ├── logo.png
-│   └── tonconnect-manifest.json       # TON Connect application metadata
-├── src/
-│   ├── App.jsx                        # Telegram shell, TON wallet, balance, navigation
-│   ├── main.jsx                       # React root + TON Connect provider
-│   ├── components/
-│   │   ├── UploadSection.jsx          # Image capture, AI valuation, TON submission flow
-│   │   ├── LoansSection.jsx           # Wallet asset history and explorer links
-│   │   └── DhahabyValuation_*.ts      # Generated TON contract bindings
-│   ├── docs/                           # Challenge brief and event photography
-│   └── utility/trackEvent.js           # Product event tracking
-├── server/
-│   ├── index.js                       # Express API and orchestration
-│   ├── components/tonClient.js        # TON wallet, message, and confirmation logic
-│   └── .env.example                   # Backend configuration template
-├── package.json                       # Frontend dependencies and scripts
-└── README.md
-```
-
----
-
-## Run it locally
-
-This repository contains two Node projects: the Vite frontend at the root and the Express backend in `server/`.
-
-### Prerequisites
-
-- Node.js 18 or newer
-- npm
-- MySQL
-- A Telegram bot/Mini App configuration for full Telegram context
-- A TON testnet wallet funded with test TON
-- TON Center and AI service credentials
-- A deployed compatible TON valuation contract
-
-### 1. Install the frontend
+**Prerequisites:** Node.js 18+, MySQL, a Telegram bot/Mini App configuration, a funded TON testnet wallet, TON Center and AI service credentials, and a deployed valuation contract.
 
 ```bash
-git clone <your-repository-url>
-cd dhahaby
+# frontend
 npm install
-```
 
-### 2. Configure the backend
-
-```bash
+# backend
 cd server
 npm install
-cp .env.example .env
-```
-
-Set the required values in `server/.env`:
-
-```dotenv
-PORT=3000
-
-MYSQL_HOST=localhost
-MYSQL_USER=<mysql-user>
-MYSQL_PASSWORD=<mysql-password>
-MYSQL_DATABASE=<mysql-database>
-
-OPENAI_API_KEY=<openai-api-key>
-
-TON_API_TESTNET_URL=https://testnet.toncenter.com/api/v2/jsonRPC
-TON_API_KEY=<toncenter-api-key>
-TON_MNEMONIC=<testnet-wallet-mnemonic>
-STORE_WALLET_ADDRESS=<testnet-store-wallet-address>
-CONTRACT_ADDRESS=<testnet-valuation-contract-address>
-```
-
-> Never use a mainnet mnemonic for local development. Keep `.env` out of version control and use a dedicated, low-value testnet wallet.
-
-Start the API:
-
-```bash
+cp .env.example .env   # fill in MySQL, OPENAI_API_KEY, TON_* and CONTRACT_ADDRESS
 node index.js
 ```
 
-### 3. Start the frontend
+Then start the frontend from the repository root with `npm run dev`. You can inspect the UI in a browser, but the full Telegram context requires launching the app through Telegram.
 
-In another terminal, from the repository root:
+> Never use a mainnet mnemonic for local development. Keep `.env` out of version control.
 
-```bash
-npm run dev
+```text
+public/                          TON Connect manifest, logo
+src/App.jsx                      Telegram shell, TON wallet, navigation
+src/components/UploadSection.jsx Image capture, AI valuation, TON submission
+src/components/LoansSection.jsx  Wallet asset history and explorer links
+server/index.js                  Express API and orchestration
+server/components/tonClient.js   TON wallet, message and confirmation logic
+src/docs/                        Challenge brief and event photography
 ```
 
-Open the local URL printed by Vite. A browser session is enough to inspect the interface; Telegram user context and the complete Mini App behavior require launch through Telegram.
+</details>
 
-### 4. Verify the build
-
-```bash
-npm run lint
-npm run build
-```
-
-The backend currently exposes a placeholder test script rather than an automated test suite.
-
----
-
-## API surface used by the TON journey
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| `POST` | `/api/user/create` | Create a customer from Telegram identity data. |
-| `GET` | `/api/user/:telegramId` | Restore the Telegram-linked user record. |
-| `POST` | `/api/classify` | Classify an uploaded jewellery image. |
-| `GET` | `/api/XAU/:currency` | Return the gold price reference used by the valuation. |
-| `POST` | `/api/loan/apply` | Persist a pre-valuation and initiate the TON valuation record. |
-| `GET` | `/api/prevaluations/:walletAddress` | Return wallet-linked assets and transaction references. |
-| `POST` | `/api/loan/schedule` | Continue an asset into the appraisal workflow. |
-| `POST` | `/api/track` | Record product analytics events. |
-
----
-
-## What this prototype proves
-
-Dhahaby’s winning build proves that a real-world asset journey can begin with familiar consumer behavior rather than blockchain terminology.
-
-The customer sees a photo, an estimate, a wallet connection, and an asset record. Underneath, the system coordinates Telegram identity, AI classification, commodity pricing, database state, TON message serialization, wallet signing, confirmation polling, and explorer visibility.
-
-That separation matters. The product remains approachable while the technical trail remains inspectable.
-
-### Prototype boundaries
-
-This repository should be understood as the **challenge-era TON testnet prototype**, not a production custody or lending system.
-
-- AI output is a pre-valuation, not a certified appraisal.
-- A TON record proves that data was submitted; it does not prove the physical item’s authenticity by itself.
-- Lending and credit require licensed partners, identity checks, appraisal, custody, and jurisdiction-specific compliance.
-- Production deployment requires secret rotation, stronger configuration isolation, security review, monitoring, automated tests, and contract-level verification.
-
----
-
-## Where the story goes next
-
-The winning prototype establishes the first rail. A production evolution can build on it with:
-
-- Telegram-first customer acquisition and partner referrals.
-- Certified jeweller and appraiser networks.
-- Tamper-aware evidence and custody hand-offs.
-- On-chain lifecycle events beyond the first valuation record.
-- Gold-backed loans, credit, payments, and savings products delivered by licensed partners.
-- Better contract deployment tooling, test coverage, observability, and key management.
-
-The north star remains simple:
-
-> **Tokenise once. Unlock value whenever it is needed.**
-
----
-
-## Challenge archive
-
-The original challenge source material is preserved in [`src/docs`](./src/docs):
-
-- [`ton_challenge_detail.txt`](./src/docs/ton_challenge_detail.txt) — program brief, tracks, submission requirements, and judging criteria.
-- [`ton_x_ignyte_global_challenge.jpg`](./src/docs/ton_x_ignyte_global_challenge.jpg) — challenge artwork.
-- [`dhahaby_pitch_ton_x_ignyte_global_challenge.jpeg`](./src/docs/dhahaby_pitch_ton_x_ignyte_global_challenge.jpeg) — Dhahaby’s on-stage pitch.
-- [`dhahaby_winner_of_ton_x_ignyte_global_challenge.jpg`](./src/docs/dhahaby_winner_of_ton_x_ignyte_global_challenge.jpg) — winner announcement and prize.
+**Prototype boundaries:** AI output is a pre-valuation, not a certified appraisal. An on-chain record proves that data was submitted, but it doesn't prove the physical item is authentic. Lending requires licensed partners, identity checks, appraisal and custody, which the production platform provides through its partners.
 
 ---
 
 ## About Dhahaby
 
-Dhahaby is building infrastructure that turns physical gold into understandable, verifiable, and reusable financial value.
+Dhahaby was founded in 2025 at the DIFC Innovation Hub in Dubai by [Dr. Rikin Patel](https://www.linkedin.com/in/drrikinpatel/) and [Dr. Huankai Chen](https://www.linkedin.com/in/huankaichen/), and is backed by Antler and Qatar Development Bank. We are building the financial infrastructure that makes dormant household gold work like money.
 
 <div align="center">
-  <p><strong>Your Gold, Reimagined.</strong></p>
+  <p><strong>Built in the UAE 🇦🇪, for a market where gold really matters. Made to export globally.</strong></p>
+  <p><strong>We are raising our next round.</strong> <a href="mailto:ceo@dhahaby.com">Get in touch</a>.</p>
   <p>
     <a href="https://dhahaby.com">Website</a> ·
     <a href="https://www.linkedin.com/company/dhahabyofficial/">LinkedIn</a> ·
@@ -453,4 +292,5 @@ Dhahaby is building infrastructure that turns physical gold into understandable,
     <a href="https://x.com/dhahabyofficial">X</a> ·
     <a href="https://www.youtube.com/@dhahabyofficial">YouTube</a>
   </p>
+  <sub>Dhahaby is a technology platform and does not itself lend, take deposits or hold custody. Financial products are provided by licensed partners. Figures are indicative.</sub>
 </div>
