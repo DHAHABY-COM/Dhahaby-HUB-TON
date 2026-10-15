@@ -23,11 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# .env files
+# .env files (secrets, incl. GitHub credentials) — any depth
 .env
-./server/.env
-# Local application configuration
-.env.local
+.env.*
+!.env.example
 
 # Private business, legal, grant, and diligence material
 /docs/
